@@ -1,7 +1,7 @@
 import time
 
-from bitify.python.sensors.mpu6050 import MPU6050
-from bitify.python.sensors.hmc5883l import HMC5883L
+from MPU6050 import MPU6050
+from HMC5883L import HMC5883L
 
 class OLDIMU(object):
     
